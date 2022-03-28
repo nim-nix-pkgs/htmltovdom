@@ -11,6 +11,7 @@
   inputs.src-htmlToVdom-main.ref   = "refs/heads/main";
   inputs.src-htmlToVdom-main.owner = "C-NERD";
   inputs.src-htmlToVdom-main.repo  = "htmlToVdom";
+  inputs.src-htmlToVdom-main.dir   = "";
   inputs.src-htmlToVdom-main.type  = "github";
   
   inputs."karax".owner = "nim-nix-pkgs";
