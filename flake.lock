@@ -3,10 +3,12 @@
     "dotenv": {
       "inputs": {
         "flakeNimbleLib": [
+          "htmltovdom-main",
           "karax",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "htmltovdom-main",
           "karax",
           "nixpkgs"
         ],
@@ -50,13 +52,43 @@
         "type": "github"
       }
     },
+    "htmltovdom-main": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "karax": "karax",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-htmlToVdom-main": "src-htmlToVdom-main"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1653703363,
+        "narHash": "sha256-1qOokxrop6SipsXaYmf5gt02u42D5lWBJgwKJNPBHPk=",
+        "owner": "nim-nix-pkgs",
+        "repo": "htmltovdom",
+        "rev": "a38f22b071c579f7256c0a968f219bb754832592",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "htmltovdom",
+        "type": "github"
+      }
+    },
     "karax": {
       "inputs": {
         "dotenv": "dotenv",
         "flakeNimbleLib": [
+          "htmltovdom-main",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "htmltovdom-main",
           "nixpkgs"
         ],
         "src-karax-1_2_1": "src-karax-1_2_1",
@@ -64,11 +96,11 @@
       },
       "locked": {
         "dir": "1_2_1",
-        "lastModified": 1656302088,
-        "narHash": "sha256-08ztrodAUcNMzCTn2Irv3gKnJrw94Yv6THSrzc9IGnU=",
+        "lastModified": 1653703197,
+        "narHash": "sha256-tYJdo97qEpRRbGT0bog5Q1rPBk3g6SdShIOlD7CoTqw=",
         "owner": "nim-nix-pkgs",
         "repo": "karax",
-        "rev": "3b3282cbfae2f55ee474e08faab76b92301b811f",
+        "rev": "db686b91627958814585d177bcbd833f55b72e4d",
         "type": "github"
       },
       "original": {
@@ -94,9 +126,8 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "karax": "karax",
-        "nixpkgs": "nixpkgs",
-        "src-htmlToVdom-main": "src-htmlToVdom-main"
+        "htmltovdom-main": "htmltovdom-main",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-dotenv-2_0_1": {
@@ -170,10 +201,12 @@
     "ws": {
       "inputs": {
         "flakeNimbleLib": [
+          "htmltovdom-main",
           "karax",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "htmltovdom-main",
           "karax",
           "nixpkgs"
         ],
