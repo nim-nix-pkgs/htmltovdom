@@ -65,11 +65,11 @@
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1657154159,
-        "narHash": "sha256-I3tsJyD1FtCv8zzVKaQeAztMqlmNbHggaxF3MODLsig=",
+        "lastModified": 1658019237,
+        "narHash": "sha256-17d+1Q0kV8xQPGYEpYGYNSOiTRyX6TXLF/yHd6bql9w=",
         "owner": "nim-nix-pkgs",
         "repo": "htmltovdom",
-        "rev": "4af21cbbbdf1c7900866fd7b465f3567a3669612",
+        "rev": "f4cd901ea4bb3d37a0b7cacdfa12df5074aa12b8",
         "type": "github"
       },
       "original": {
@@ -96,11 +96,11 @@
       },
       "locked": {
         "dir": "1_2_1",
-        "lastModified": 1657153994,
-        "narHash": "sha256-VVOvClUngfmE02UF4Yt5r/L1pOAXH0LCkMwoCY44h8g=",
+        "lastModified": 1658019052,
+        "narHash": "sha256-lvLLCvU8++iOySaM85VVjelVl2HmDx93kDgrNFRTIbY=",
         "owner": "nim-nix-pkgs",
         "repo": "karax",
-        "rev": "5c249098637ef7204b8f20da26f72cdc85faf591",
+        "rev": "73aa47f07de217b0fc155c82f0afe0458c959d41",
         "type": "github"
       },
       "original": {
@@ -150,11 +150,11 @@
     "src-htmlToVdom-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1656528961,
-        "narHash": "sha256-ELiBkLGlcDO+SdKT8oEmMEUQtSErtNS4w87P8A4QmdU=",
+        "lastModified": 1657334538,
+        "narHash": "sha256-xzaIF0Gdgvjal5sFC9xq/F+Vtl/RfCmLMtbCM4ghfL8=",
         "owner": "C-NERD",
         "repo": "htmlToVdom",
-        "rev": "d9dee8c938b20fa2ecba6471188c4b56e79f4a73",
+        "rev": "f4d0b65aefe8217203a94cf5d5fb7bc1682f2500",
         "type": "github"
       },
       "original": {
